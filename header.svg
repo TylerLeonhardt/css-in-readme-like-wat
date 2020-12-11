@@ -1,6 +1,6 @@
 <svg fill="none" viewBox="0 0 800 400" width="800" height="400" xmlns="http://www.w3.org/2000/svg">
 	<foreignObject width="100%" height="100%">
-	<div xmlns="http://www.w3.org/1999/xhtml">
+		<div xmlns="http://www.w3.org/1999/xhtml">
 			<style>
 				@keyframes rotate {
 					0% {
@@ -10,7 +10,6 @@
 						transform: rotate(-3deg);
 					}
 				}
-
 				@keyframes gradientBackground {
 					0% {
 						background-position: 0% 50%;
@@ -22,7 +21,6 @@
 						background-position: 0% 50%;
 					}
 				}
-
 				@keyframes fadeIn {
 					0% {
 						opacity: 0;
@@ -34,7 +32,6 @@
 						opacity: 1;
 					}
 				}
-
 				.container {
 					font-family:
 						system-ui,
@@ -60,7 +57,6 @@
 					color: white;
 					text-align: center;
 				}
-
 				h1 {
 					font-size: 50px;
 					line-height: 1.3;
@@ -74,7 +70,6 @@
 						0 12px 5px rgba(0, 0, 0, 0.1);
 					animation: rotate ease-in-out 1s infinite alternate;
 				}
-
 				p {
 					font-size: 20px;
 					text-shadow: 0 1px 0 #efefef;
@@ -85,5 +80,6 @@
 				<h1>Made with HTML &amp; CSS<br/>not an animated GIF</h1>
 				<p>Click to see the source</p>
 			</div>
+		</div>
 	</foreignObject>
 </svg>
