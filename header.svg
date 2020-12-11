@@ -1,16 +1,20 @@
 <svg fill="none" viewBox="0 0 800 400" width="800" height="400" xmlns="http://www.w3.org/2000/svg">
 	<foreignObject width="100%" height="100%">
-				<!-- Add a placeholder for the Twitch embed -->
-<div id="twitch-embed"></div>
+<div xmlns="http://www.w3.org/1999/xhtml">
+      <form action="" method="get" class="form-example">
+  <div class="form-example">
+    <label for="name">Enter your name: </label>
+    <input type="text" name="name" id="name" required>
+  </div>
+  <div class="form-example">
+    <label for="email">Enter your email: </label>
+    <input type="email" name="email" id="email" required>
+  </div>
+  <div class="form-example">
+    <input type="submit" value="Subscribe!">
+  </div>
+</form>
 
-<!-- Load the Twitch embed script -->
-<script src="https://player.twitch.tv/js/embed/v1.js"></script>
-
-<!-- Create a Twitch.Player object. This will render within the placeholder div -->
-<script type="text/javascript">
-  new Twitch.Player("twitch-embed", {
-    video: "825010243"
-  });
-</script>
+    </div>
 	</foreignObject>
 </svg>
